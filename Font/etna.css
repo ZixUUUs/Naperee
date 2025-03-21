@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Etna";
+  src: url("./etna.eot"); /* IE 9 Compatibility Mode */
+  src: url("./etna.eot") format("embedded-opentype"),
+    /* IE < 9 */ url("./etna.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./etna.woff") format("woff"),
+    /* Firefox >= 3.6, any other modern browser */ url("./etna.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./etna.svg") format("svg"); /* Chrome < 4, Legacy iOS */
+}
