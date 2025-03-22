@@ -1,0 +1,158 @@
+@media (max-width: 1440px) {
+  .padding-container {
+    padding: 18px 40px 18px 40px;
+    margin: 0;
+  }
+  /*section-1*/
+}
+@media (max-width: 990px) {
+  .padding-container {
+    padding: 18px 20px 18px 20px;
+    margin: 0;
+  }
+  /*naptec-header*/
+  header .naptec-nav {
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+  }
+
+  /*responsiv-menu*/
+  .responsivity {
+    display: flex;
+  }
+  .responsivity button {
+    display: flex;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+  }
+  .responsivity button svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .side-bare-div {
+    position: fixed;
+    top: 128px;
+    left: 0;
+    background-color: #ede6db;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 70px;
+    animation: start 0.5s ease-in-out forwards;
+    z-index: 9999;
+    border-top: 2px solid #d86752;
+  }
+  @keyframes start {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes end {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0%;
+    }
+  }
+  .side-bare-div img {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+    align-self: center;
+  }
+  .close-btn {
+    position: absolute;
+    left: 88%;
+    top: 1%;
+    background: none;
+    border: none;
+  }
+  .close-btn svg {
+    width: 30px;
+    height: 30px;
+    color: #143338;
+  }
+  .naperee-logo {
+    position: relative;
+    right: 6%;
+  }
+  .nav-list {
+    display: none;
+    align-self: flex-start;
+  }
+  .nav-list ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 60px 0 0 20px;
+  }
+  .nav-list ul li a {
+    position: relative;
+    font-family: Etna;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    color: #403c3c;
+  }
+  .right-nav {
+    gap: 25px;
+  }
+  /*syling*/
+  .grid-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 30px;
+  }
+  /*section-1*/
+}
+@media (max-width: 600px) {
+  .naptec-nav .list-login ul {
+    gap: 10px;
+  }
+  .right-nav {
+    gap: 20px;
+  }
+  /*section-1*/
+}
+@media (max-width: 430px) {
+  .list-login ul li a {
+    font-size: 12px;
+  }
+  /*section-1*/
+}
+@media (max-width: 380px) {
+  .naptec-logo img {
+    width: 80px;
+  }
+  .naptec-nav .list-login ul {
+    gap: 5px;
+  }
+  /*header*/
+  .side-bare-div {
+    top: 124px;
+  }
+  .list-login ul li a {
+    font-size: 10px;
+  }
+  .list-login ul li:last-child a {
+    padding: 9px;
+  }
+  .right-nav {
+    gap: 10px;
+  }
+  /*section-1*/
+}
