@@ -231,6 +231,34 @@
     height: 400px;
     place-self: end;
   }
+  /*section-4*/
+  .section-4 .padding-container {
+    padding-bottom: 60px;
+  }
+  .padding-container .title-sec-4 {
+    padding: 60px 0 72px 0;
+  }
+  .title-sec-4 .title-text {
+    gap: 15px;
+  }
+  .title-text h3 {
+    font-size: 74px;
+  }
+  .title-text h1 {
+    font-size: 42px;
+  }
+  .title-sec-4 .title-btn a {
+    font-size: 14px;
+    padding: 14px 20px;
+  }
+  .product-card .card-img {
+    width: 300.366px;
+    height: 310px;
+    overflow: hidden;
+  }
+  .product-card h3 {
+    font-size: 21px;
+  }
 }
 @media (max-width: 600px) {
   .naptec-nav .list-login ul {
@@ -293,6 +321,17 @@
   .padding-container .text-sec-3 {
     height: 96px;
     padding: 122px 0 0 0;
+  }
+  /*section-4*/
+  .padding-container .title-sec-4 {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+  }
+  .title-sec-4 .title-text {
+    text-align: center;
+    gap: 0;
   }
 }
 @media (max-width: 430px) {
@@ -373,6 +412,17 @@
   .padding-container .title-end h6 {
     font-size: 75px;
   }
+  /*section-4*/
+  .title-text h3 {
+    font-size: 60px;
+  }
+  .title-text h1 {
+    font-size: 34px;
+  }
+  .title-sec-4 .title-btn a {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
 }
 @media (max-width: 380px) {
   .naptec-logo img {
@@ -434,5 +484,14 @@
   /*section-3*/
   .padding-container .title-end h6 {
     font-size: 53px;
+  }
+  /*section-4*/
+  .title-text h1 {
+    font-size: 28px;
+  }
+  .product-card .card-img {
+    width: 260.366px;
+    height: 287px;
+    overflow: hidden;
   }
 }

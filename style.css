@@ -463,3 +463,107 @@ section {
   vertical-align: middle;
   color: #ffffff;
 }
+/*section-4*/
+.section-4 {
+  height: 100%;
+  min-height: 760px;
+}
+.section-4 .padding-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+.padding-container .title-sec-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 112px 0 72px 0;
+}
+.title-sec-4 .title-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.title-text h3 {
+  font-family: "Eye Catching Pro";
+  font-weight: 400;
+  font-size: 88px;
+  line-height: 64px;
+  vertical-align: middle;
+  color: #403c3c;
+}
+.title-text h1 {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  vertical-align: middle;
+  color: #403c3c;
+}
+.title-sec-4 .title-btn {
+  align-self: center;
+}
+.title-sec-4 .title-btn:hover a {
+  color: #ffffff;
+  background-color: #403c3c;
+}
+.title-sec-4 .title-btn a {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: 1px solid #403c3c;
+  border-radius: 100px;
+  color: #403c3c;
+  padding: 14px 40px;
+  transition: all 0.3s ease-in-out;
+}
+.padding-container .prdouct-list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.padding-container .prdouct-list ul li {
+  scroll-snap-align: start;
+  width: 325.366px;
+  margin-right: 30px;
+  height: 416px;
+  max-height: 416px;
+}
+.padding-container .prdouct-list ul li:hover .product-card .card-img img {
+  transform: scale(1.1);
+}
+.prdouct-list ul li .product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+}
+.product-card .card-img {
+  width: 325.366px;
+  height: 360px;
+  overflow: hidden;
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 30% 50%;
+  transition: all 0.4s ease;
+}
+.product-card h3 {
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 40px;
+  vertical-align: middle;
+  color: #383735;
+}
