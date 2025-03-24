@@ -763,6 +763,9 @@
     width: 300px;
   }
   /*section-3*/
+  .section-3 {
+    min-height: 100vh;
+  }
   .padding-container .title-end h6 {
     font-size: 53px;
   }
