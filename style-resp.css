@@ -646,6 +646,7 @@
   .padding-container .title-end {
     position: relative;
     width: 100%;
+    left: 20px;
     height: 209px;
     align-self: flex-start;
   }

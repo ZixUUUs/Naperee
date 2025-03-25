@@ -250,7 +250,7 @@ section {
 /*section-2*/
 .section-2 {
   height: 100%;
-  min-height: 90vh;
+  min-height: 840px;
   background-color: #e0d8d0;
 }
 .section-2 .padding-container {
@@ -403,7 +403,7 @@ section {
 .section-3 {
   position: relative;
   height: 100%;
-  min-height: 90vh;
+  min-height: 720px;
 }
 .section-3 .bg-sec {
   position: absolute;
